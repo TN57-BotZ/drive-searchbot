@@ -15,7 +15,7 @@ def log(update, context):
     sendLogFile(context.bot, update)
 
 
-botcmds = [(f'{BotCommands.ListCommand}','Searches files in Drive')]
+botcmds = [(f'{BotCommands.ListCommand}','Searches files in Drive🔍')]
 
 
 def main():
