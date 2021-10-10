@@ -7,7 +7,7 @@ from .modules import authorize, list
 
 
 def start(update, context):
-    start_string = '\x1fThis bot can search file from your Google Drive!\x1f'
+    start_string = '\x1fThis bot can search file from your Google Drive For @TN57_BotZ\x1f'
     sendMessage(start_string, context.bot, update)
 
 
